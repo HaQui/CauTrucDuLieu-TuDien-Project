@@ -42,6 +42,8 @@
             this.SoundWord = new System.Windows.Forms.PictureBox();
             this.TimKiem_ComboBox = new System.Windows.Forms.ComboBox();
             this.Nghia_TextBox = new System.Windows.Forms.TextBox();
+            this.English_ListView = new System.Windows.Forms.ListView();
+            this.Search_TextBox = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SearchWeb)).BeginInit();
@@ -177,7 +179,7 @@
             // 
             this.TimKiem_ComboBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TimKiem_ComboBox.FormattingEnabled = true;
-            this.TimKiem_ComboBox.Location = new System.Drawing.Point(12, 180);
+            this.TimKiem_ComboBox.Location = new System.Drawing.Point(12, 224);
             this.TimKiem_ComboBox.Name = "TimKiem_ComboBox";
             this.TimKiem_ComboBox.Size = new System.Drawing.Size(208, 26);
             this.TimKiem_ComboBox.TabIndex = 15;
@@ -186,11 +188,33 @@
             // Nghia_TextBox
             // 
             this.Nghia_TextBox.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nghia_TextBox.Location = new System.Drawing.Point(281, 180);
+            this.Nghia_TextBox.Location = new System.Drawing.Point(230, 180);
             this.Nghia_TextBox.Multiline = true;
             this.Nghia_TextBox.Name = "Nghia_TextBox";
-            this.Nghia_TextBox.Size = new System.Drawing.Size(428, 342);
+            this.Nghia_TextBox.Size = new System.Drawing.Size(479, 342);
             this.Nghia_TextBox.TabIndex = 16;
+            // 
+            // English_ListView
+            // 
+            this.English_ListView.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.English_ListView.FullRowSelect = true;
+            this.English_ListView.Location = new System.Drawing.Point(12, 268);
+            this.English_ListView.MultiSelect = false;
+            this.English_ListView.Name = "English_ListView";
+            this.English_ListView.Size = new System.Drawing.Size(208, 254);
+            this.English_ListView.TabIndex = 17;
+            this.English_ListView.UseCompatibleStateImageBehavior = false;
+            this.English_ListView.View = System.Windows.Forms.View.List;
+            this.English_ListView.SelectedIndexChanged += new System.EventHandler(this.English_ListView_SelectedIndexChanged);
+            // 
+            // Search_TextBox
+            // 
+            this.Search_TextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Search_TextBox.Location = new System.Drawing.Point(15, 180);
+            this.Search_TextBox.Name = "Search_TextBox";
+            this.Search_TextBox.Size = new System.Drawing.Size(209, 26);
+            this.Search_TextBox.TabIndex = 18;
+            this.Search_TextBox.TextChanged += new System.EventHandler(this.Search_TextBox_TextChanged);
             // 
             // TuDienAV
             // 
@@ -198,6 +222,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(750, 542);
+            this.Controls.Add(this.Search_TextBox);
+            this.Controls.Add(this.English_ListView);
             this.Controls.Add(this.Nghia_TextBox);
             this.Controls.Add(this.TimKiem_ComboBox);
             this.Controls.Add(this.SearchWeb);
@@ -244,7 +270,8 @@
         private System.Windows.Forms.PictureBox SearchWeb;
         private System.Windows.Forms.ComboBox TimKiem_ComboBox;
         private System.Windows.Forms.TextBox Nghia_TextBox;
-
+        private System.Windows.Forms.ListView English_ListView;
+        private System.Windows.Forms.TextBox Search_TextBox;
     }
 }
 
