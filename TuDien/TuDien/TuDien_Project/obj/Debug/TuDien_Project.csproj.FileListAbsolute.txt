@@ -27,3 +27,13 @@ E:\HocTap_HK1_NAM2\_CauTrucProject\TuDien_Project\obj\Debug\TuDien_Project.cspro
 E:\HocTap_HK1_NAM2\_CauTrucProject\TuDien_Project\obj\Debug\TuDien_Project.csproj.CoreCompileInputs.cache
 E:\HocTap_HK1_NAM2\_CauTrucProject\TuDien_Project\obj\Debug\TuDien_Project.exe
 E:\HocTap_HK1_NAM2\_CauTrucProject\TuDien_Project\obj\Debug\TuDien_Project.pdb
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien_Project\bin\Debug\TuDien_Project.exe.config
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien_Project\bin\Debug\TuDien_Project.exe
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien_Project\bin\Debug\TuDien_Project.pdb
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien_Project\obj\Debug\TuDien_Project.csprojResolveAssemblyReference.cache
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien_Project\obj\Debug\TuDien_Project.Properties.Resources.resources
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien_Project\obj\Debug\TuDien_Project.TuDienAV.resources
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien_Project\obj\Debug\TuDien_Project.csproj.GenerateResource.Cache
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien_Project\obj\Debug\TuDien_Project.csproj.CoreCompileInputs.cache
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien_Project\obj\Debug\TuDien_Project.exe
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien_Project\obj\Debug\TuDien_Project.pdb

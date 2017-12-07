@@ -15,21 +15,66 @@ namespace TuDien_Project
     public partial class TuDienAV : Form
     {
         public BinarySearchTree tree;
-
         public TuDienAV()
         {
             InitializeComponent();
             tree = new BinarySearchTree();
             doctufile();
-            LoadComboBox(tree.Root);
             ListView English_ListView = new ListView();
-            LoadEngLishListView(tree.Root);
-            LoadTextBoxSearch();
+            LoadComboBox(tree.Root);
+            
         }
+
+        DataTable sample;
+        private void TuDienAV_Load(object sender, EventArgs e)
+        {
+            sample = new DataTable();
+            sample.Columns.Add("Danh Sach Muc Tu", typeof(string));
+            LoadEngLishListView(tree.Root);
+        }
+        private void LoadEngLishListView(Node node)
+        {
+            EngLishListView(node);
+
+            English_ListView.View = View.Details;
+            English_ListView.Columns.Add("Danh Sach Muc Tu").Width=190;
+
+            addItems();
+            Search_TextBox.TextChanged += new EventHandler(Search_TextBox_TextChanged);
+
+        }
+        private void EngLishListView(Node node)
+        {
+            if (node == null)
+                return;
+            EngLishListView(node.Left);
+
+            sample.Rows.Add(node.English.ToString());
+
+            EngLishListView(node.Right);
+        }
+        private void Search_TextBox_TextChanged(object sender, EventArgs e)
+        {
+            addItems();
+        }
+        private void addItems()
+        {
+            English_ListView.Items.Clear(); //Clear all the Data in the ListView
+            foreach (DataRow row in sample.Rows)
+            {
+                if (row["Danh Sach Muc Tu"].ToString().ToLower().StartsWith(Search_TextBox.Text.ToLower()))
+                //If the cell value is start with the value in the TextBox
+                {
+                    ListViewItem item = new ListViewItem(row["Danh Sach Muc Tu"].ToString());
+                    English_ListView.Items.Add(item); //Add this row to the ListView
+                }
+            }
+        }
+
         public void doctufile()
         {
             FileStream file = new FileStream
-                (@"E:\HocTap_HK1_NAM2\_CauTrucProject\TuDien_Project\Dictionary_Source.txt",
+                (@"E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\Dictionary_Source.txt",
                 FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(file);
             try
@@ -69,14 +114,7 @@ namespace TuDien_Project
         //    About About = new About();
         //    About.Show();
         //}
-        private void LoadEngLishListView(Node node)
-        {
-            if (node == null)
-                return;
-            LoadEngLishListView(node.Left);
-            English_ListView.Items.Add(node.English);
-            LoadEngLishListView(node.Right);
-        }
+        
 
         private void LoadComboBox(Node node)
         {
@@ -86,6 +124,7 @@ namespace TuDien_Project
             TimKiem_ComboBox.Items.Add(node.English);
             LoadComboBox(node.Right);
         }
+
         private void TimKiem_ComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             ComboBox cb = sender as ComboBox;
@@ -101,39 +140,6 @@ namespace TuDien_Project
             string namee = English_ListView.SelectedItems[0].Text;
             string s = tree.search(namee);
             Nghia_TextBox.Text = s;
-        }
-     
-
-        private void LoadTextBoxSearch()
-        {
-            Search_TextBox.BackColor = Color.DimGray;
-            Search_TextBox.ForeColor = Color.White;
-
-        }
-
-        private void Search_TextBox_TextChanged(object sender, EventArgs e)
-        {
-                if (Search_TextBox.Text != "")
-                {
-                    for (int i = English_ListView.Items.Count - 1; i >= 0; i--)
-                    {
-                        var item = English_ListView.Items[i];
-                        if (item.Text.ToLower().Contains(Search_TextBox.Text.ToLower()))
-                        {
-                            item.BackColor = SystemColors.Highlight;
-                            item.ForeColor = SystemColors.HighlightText;
-                        }
-                        else
-                        {
-                        English_ListView.Items.Remove(item);
-                        }
-                    }
-                    if (English_ListView.SelectedItems.Count == 1)
-                    {
-                    English_ListView.Focus();
-                    }
-                }
-
         }
     }
 }
