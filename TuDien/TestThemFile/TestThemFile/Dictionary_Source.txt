@@ -1,0 +1,16 @@
+﻿release&(v): Giải thoát, công bố, phát hành
+expert&(adj)+at/on ST: chuyên môn về ST
+expertise&(n): sự giám định
+inevitable&(adj): không thể tránh khỏi
+inevitability&(n): sự không thể tránh khỏi
+inevitably&(adv): chắc chắn
+reason&(n): lý do, lý trí
+reasonable&(adj): hợp lý, vừa phải
+emit&(v): tỏa ra
+emission&(n): sự tỏa ra
+significant&(adj): có nghĩa, quan trọng
+apple&(n): trái táo
+animal&(n): dong vat
+human&(n): con nguoi
+people&(n): dan toc
+person&(n): ca nhan

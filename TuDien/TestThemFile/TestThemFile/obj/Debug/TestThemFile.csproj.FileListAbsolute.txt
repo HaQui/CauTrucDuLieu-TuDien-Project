@@ -1,0 +1,7 @@
+C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TestThemFile\TestThemFile\bin\Debug\TestThemFile.exe.config
+C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TestThemFile\TestThemFile\bin\Debug\TestThemFile.exe
+C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TestThemFile\TestThemFile\bin\Debug\TestThemFile.pdb
+C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TestThemFile\TestThemFile\obj\Debug\TestThemFile.csprojResolveAssemblyReference.cache
+C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TestThemFile\TestThemFile\obj\Debug\TestThemFile.csproj.CoreCompileInputs.cache
+C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TestThemFile\TestThemFile\obj\Debug\TestThemFile.exe
+C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TestThemFile\TestThemFile\obj\Debug\TestThemFile.pdb
