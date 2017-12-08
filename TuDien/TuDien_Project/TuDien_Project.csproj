@@ -46,6 +46,12 @@
   <ItemGroup>
     <Compile Include="BinarySearchTree.cs" />
     <Compile Include="Node.cs" />
+    <Compile Include="ThemTu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemTu.Designer.cs">
+      <DependentUpon>ThemTu.cs</DependentUpon>
+    </Compile>
     <Compile Include="TuDienAV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ThemTu.resx">
+      <DependentUpon>ThemTu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TuDienAV.resx">
       <DependentUpon>TuDienAV.cs</DependentUpon>
     </EmbeddedResource>

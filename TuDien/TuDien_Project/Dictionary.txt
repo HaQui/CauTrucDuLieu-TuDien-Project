@@ -9,8 +9,5 @@ reasonable&(adj): hợp lý, vừa phải
 emit&(v): tỏa ra
 emission&(n): sự tỏa ra
 significant&(adj): có nghĩa, quan trọng
-apple&(n): trái táo
-animal&(n): dong vat
-human&(n): con nguoi
-people&(n): dan toc
-person&(n): ca nhan
+work&(v): làm việc
+beautiful&(adj): xinh đẹp

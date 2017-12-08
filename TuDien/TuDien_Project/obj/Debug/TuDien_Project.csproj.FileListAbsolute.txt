@@ -47,3 +47,14 @@ C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TuDien_Project\obj\Debug\TuDien_Projec
 C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TuDien_Project\obj\Debug\TuDien_Project.csproj.CoreCompileInputs.cache
 C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TuDien_Project\obj\Debug\TuDien_Project.exe
 C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TuDien_Project\obj\Debug\TuDien_Project.pdb
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\bin\Debug\TuDien_Project.exe.config
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\bin\Debug\TuDien_Project.exe
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\bin\Debug\TuDien_Project.pdb
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\obj\Debug\TuDien_Project.csprojResolveAssemblyReference.cache
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\obj\Debug\TuDien_Project.Properties.Resources.resources
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\obj\Debug\TuDien_Project.ThemTu.resources
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\obj\Debug\TuDien_Project.TuDienAV.resources
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\obj\Debug\TuDien_Project.csproj.GenerateResource.Cache
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\obj\Debug\TuDien_Project.csproj.CoreCompileInputs.cache
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\obj\Debug\TuDien_Project.exe
+E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\obj\Debug\TuDien_Project.pdb

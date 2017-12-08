@@ -74,7 +74,7 @@ namespace TuDien_Project
         public void doctufile()
         {
             FileStream file = new FileStream
-                (@"C:\Users\HaNguyen\OneDrive\Desktop\TuDien\TuDien_Project\Dictionary_Source.txt",
+                (@"E:\Github\CauTrucDuLieu-TuDien-Project\TuDien\TuDien_Project\Dictionary.txt",
                 FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(file);
             try
@@ -147,7 +147,10 @@ namespace TuDien_Project
 
         private void Them_Button_Click(object sender, EventArgs e)
         {
-
+            ThemTu f = new ThemTu();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
         }
 
         private void Sua_Button_Click(object sender, EventArgs e)
