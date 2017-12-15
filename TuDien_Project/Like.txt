@@ -1,0 +1,5 @@
+﻿accede&(v): đồng ý, tán thành
+beautiful&(adj): xinh đẹp
+expert&(adj)+at/on ST: chuyên môn về STT
+dog&(n): con cho
+expert&(adj)+at/on ST: chuyên môn về STreasonable&#(adj): hợp lý, vừa phải

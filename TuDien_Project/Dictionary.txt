@@ -1,0 +1,58 @@
+release&(v): giải thoát, công bố, phát hành
+expert&(adj): +at/on ST:  chuyên môn về ST
+expertise&(n): sự giám định
+inevitable&(adj): không thể tránh khỏi
+inevitability&(n): sự không thể tránh khỏi
+reason&(n): lý do, lý trí
+reasonable&(adj): hợp lý, vừa phải
+emit&(v): tỏa ra
+emission&(n): sự tỏa ra
+significant&(adj): có nghĩa, quan trọng
+accede&(v): đồng ý, tán thành
+accept&(v): chấp nhận, thừa nhận
+comprehension&(n): sự hiểu, sự lĩnh hội, sự nhận thức,sự bao gồm, sự bao hàm
+direction&(n): sự điều khiển, sự chỉ huy, lời hướng dẫn
+encourage&(v): khuyến khích, cỗ vũ, động viên
+separate&(adj): riêng biệt, tách rời
+article&(n): bài báo, điều khoản (hợp đồng): , đồ, vật phẩm, hàng (artical of clothing-đồ mặc): 
+separate&(v): làm tách rời ra
+campaign&(n): chiến dịch, cuộc vận động#(v): tham gia hoặc lãnh đạo một chiến dịch, một cuộc vận động
+train&(n): tàu lửa#(v): đào tạo
+compare&(v): +with: so sánh #(n): sự so sánh, without compare: không thể so sánh được
+Hello&(adj): Xin Chào#(adv): Chào
+Hi&(adj): Chào
+Cat&(n): Con mèo
+Cat&(n): Con mèo
+Hi&(adj): Chào
+Cat&(n): Con mèo
+Hi&(n): Chào
+OK&(v): Đồng ý
+release&(v): giải thoát, công bố, phát hành
+expert&(adj): +at/on ST:  chuyên môn về ST
+expertise&(n): sự giám định
+inevitable&(adj): không thể tránh khỏi
+inevitability&(n): sự không thể tránh khỏi
+reason&(n): lý do, lý trí
+reasonable&(adj): hợp lý, vừa phải
+emit&(v): tỏa ra
+emission&(n): sự tỏa ra
+significant&(adj): có nghĩa, quan trọng
+accede&(v): đồng ý, tán thành
+accept&(v): chấp nhận, thừa nhận
+comprehension&(n): sự hiểu, sự lĩnh hội, sự nhận thức,sự bao gồm, sự bao hàm
+direction&(n): sự điều khiển, sự chỉ huy, lời hướng dẫn
+encourage&(v): khuyến khích, cỗ vũ, động viên
+separate&(adj): riêng biệt, tách rời
+article&(n): bài báo, điều khoản (hợp đồng): , đồ, vật phẩm, hàng (artical of clothing-đồ mặc): 
+separate&(v): làm tách rời ra
+campaign&(n): chiến dịch, cuộc vận động#(v): tham gia hoặc lãnh đạo một chiến dịch, một cuộc vận động
+train&(n): tàu lửa#(v): đào tạo
+compare&(v): +with: so sánh #(n): sự so sánh, without compare: không thể so sánh được
+Hello&(adj): Xin Chào#(adv): Chào
+Hi&(adj): Chào
+Cat&(n): Con mèo
+Cat&(n): Con mèo
+Hi&(adj): Chào
+Cat&(n): Con mèo
+Hi&(n): Chào
+OK&(v): Đồng ý
